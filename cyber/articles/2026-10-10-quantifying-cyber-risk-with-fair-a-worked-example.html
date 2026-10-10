@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantifying Cyber Risk with FAIR: A Worked Example – OntoRisk</title>
+  <meta name="description" content="Quantifying cyber risk is crucial for effective risk management. One approach that has gained traction is the Factor Analysis of Information Risk (FAIR) framework. In this article,…">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <a href="../../index.html" class="nav-logo"><span class="logo-mark">Onto</span>Risk</a>
+    <ul class="nav-links">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../erm/index.html">ERM</a></li>
+      <li><a href="../../cyber/index.html">Cyber & IT</a></li>
+      <li><a href="../../ontology/index.html">Ontology</a></li>
+      <li><a href="../../financial/index.html">Financial</a></li>
+      <li><a href="../../robotic/index.html">Robotic Safety</a></li>
+      <li><a href="../../blog/index.html" class="nav-cta">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a>
+    <span>&rsaquo;</span>
+    <a href="../../blog/index.html">Blog</a>
+    <span>&rsaquo;</span>
+    <a href="../../cyber/index.html">Cyber & IT Risk</a>
+    <span>&rsaquo;</span>
+    <span>Quantifying Cyber Risk with FAIR: A Worked Example</span>
+  </div>
+</div>
+<article class="article-page">
+  <span class="tag blue">Cyber & IT Risk</span>
+  <h1>Quantifying Cyber Risk with FAIR: A Worked Example</h1>
+  <div class="article-meta-bar">
+    <span>📅 October 10, 2026</span>
+    <span>🏷️ Cyber & IT Risk</span>
+  </div>
+  <h1 id="quantifying-cyber-risk-with-fair-a-worked-example">Quantifying Cyber Risk with FAIR: A Worked Example</h1>
+<p>Quantifying cyber risk is crucial for effective risk management. One approach that has gained traction is the Factor Analysis of Information Risk (FAIR) framework. In this article, we'll walk through a worked example using this methodology.</p>
+<h2 id="what-is-the-fair-framework">What is the FAIR Framework?</h2>
+<p>FAIR is an open-source, actuarial-based methodology that allows risk analysts to quantify and manage cyber risks in financial terms. It is based on risk scenarios, threat events, asset impact, and vulnerabilities (<a href="http://FAIR.org">FAIR.org</a>).</p>
+<h2 id="setting-up-the-risk-analysis">Setting up the Risk Analysis</h2>
+<p>Let's consider a hypothetical e-commerce company, CybCo, with an annual revenue of $10 million. The company stores customer sensitive data, which can incur a regulatory fine of up to $5 million in case of a breach (EU General Data Protection Regulation).</p>
+<h2 id="defining-the-risk-scenario">Defining the Risk Scenario</h2>
+<p>For this example, we'll focus on the risk scenario of a cyber attack leading to a data breach. We'll consider two attack vectors:</p>
+<ol>
+<li>Phishing attack targeting employees</li>
+<li>Advance persistent threat (APT) through network vulnerabilities</li>
+</ol>
+<h2 id="quantifying-threat-vulnerability-and-impact">Quantifying Threat, Vulnerability, and Impact</h2>
+<h3 id="threat-frequency">Threat Frequency</h3>
+<ul>
+<li>Phishing: 100 attempts per month, probability of successful attack: 1%</li>
+<li>APT: 1 attempt per quarter, probability of successful attack: 20%</li>
+</ul>
+<h3 id="vulnerabilities">Vulnerabilities</h3>
+<ul>
+<li>Phishing: The company trains employees annually, but the training is outdated and ineffective.</li>
+<li>APT: The company updates software regularly, but there's an unknown, undisclosed zero-day vulnerability.</li>
+</ul>
+<h3 id="impact">Impact</h3>
+<ul>
+<li>Data Breach: The breach would compromise 100,000 customer records, exposing sensitive data.</li>
+</ul>
+<h2 id="calculating-expected-monetary-loss-eml">Calculating Expected Monetary Loss (EML)</h2>
+<p>We can now calculate the EML for each threat event.</p>
+<h3 id="phishing-attack">Phishing Attack</h3>
+<ol>
+<li>Frequency: 100 * 0.01 = 1 successful attack every 1000 attempts</li>
+<li>Impact: Based on the EU fine, the impact of a breach is the greater of $5 million or the expected financial loss due to regulatory fines, lawsuits, and reputational damage.</li>
+<li>Expected financial loss: Let's assume the financial loss due to regulatory fines, lawsuits, and reputational damage is approximately $2.5 million. Expected financial loss = $2.5 million x (1 successful attack / 1000 attempts) = $250,000</li>
+<li>EML = Expected financial loss = $250,000</li>
+</ol>
+<h3 id="apt">APT</h3>
+<ol>
+<li>Frequency: 1 * 0.2 = 0.2 successful attacks per quarter</li>
+<li>Impact: As in the phishing example, let's assume the financial loss due to regulatory fines, lawsuits, and reputational damage is approximately $2.5 million.</li>
+<li>EML = Expected financial loss = $2.5 million x 0.2 successful attacks per quarter = $500,000 per year</li>
+</ol>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ol>
+<li>The FAIR Framework provides a structured approach to quantifying cyber risks.</li>
+<li>By calculating EML, organizations can make informed decisions about risk treatments and allocate resources effectively.</li>
+<li>Identifying and addressing vulnerabilities is crucial in mitigating cyber risk.</li>
+<li>Risk quantification helps focus efforts on high-impact threats, ultimately reducing business disruption and financial loss.</li>
+<li>Regular risk assessments are necessary to ensure that the risk analysis remains up-to-date and effective.</li>
+</ol>
+</article>
+<section class="cta-section section-sm">
+  <div class="container">
+    <div class="cta-box">
+      <h2>More on Cyber & IT Risk</h2>
+      <p>New practitioner-grade analysis published weekly across all five OntoRisk pillars.</p>
+      <div class="cta-btns">
+        <a href="../../blog/index.html" class="btn btn-primary">All articles</a>
+        <a href="../../cyber/index.html" class="btn btn-outline">More Cyber & IT Risk</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <span>© 2026 OntoRisk</span>
+      <span><a href="../../index.html">ontorisk.com</a></span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
